@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -21,4 +22,29 @@ h1 {
     font-family: Verdana;
     font-weight: bold;
     text-align: center;
+=======
+
+
+
+h1 { 
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(250, 11, 5, 0.6);
+  }
+
+ p1 { 
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  p { 
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+>>>>>>> 565688ad0dd847cb0ca0b8b32ece9123d578e0f7
   }
