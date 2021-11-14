@@ -30,7 +30,7 @@ h1 {
   }
      
 /*Css for Portfoilo page- Adineh */
-/*margin-left and right for - Adineh */
+/*The left and right margins are used to place the table in the center- Adineh */
 
 table{ 
   width:90% ;
@@ -44,7 +44,7 @@ td{
   font-family: Verdana;
   font-weight: normal;
   background-color: rgba(65, 182, 196, 0.6);
-  color: rgba(37, 52, 168, 0.6);
+  color: rgba(1, 6, 36, 0.6);
    
 }
 
