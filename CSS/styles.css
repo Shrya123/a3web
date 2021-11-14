@@ -1,12 +1,18 @@
 
-
+ul { 
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-align: left;
+  
+}
 
 h1 { 
     font-size: 25px;
     font-family: Verdana;
     font-weight: bold;
     text-align: center;
-    color: rgba(250, 11, 5, 0.6);
+    color: rgba(37, 52, 148, 0.6);
   }
 
  p1 { 
@@ -21,5 +27,31 @@ h1 {
     font-family: Verdana;
     font-weight: bold;
     text-align: center;
->>>>>>> 565688ad0dd847cb0ca0b8b32ece9123d578e0f7
   }
+     
+/*Css for Portfoilo page- Adineh */
+/*margin-left and right for - Adineh */
+
+table{ 
+  width:90% ;
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+  border:  solid black 2px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: normal;
+  background-color: rgba(65, 182, 196, 0.6);
+  color: rgba(37, 52, 168, 0.6);
+   
+}
+
+nav { 
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-align: center;
+
+}

@@ -1,6 +1,8 @@
 <html lang="en">
+<!--Owner:Adineh
+ Date: November 13th, 2021
+address were used for external CSS . Also "meta" to manage a variety of device sizes: https://www.w3schools.com -->
 
-<!-- address were used for external CSS . Also "meta" to manage a variety of device sizes-->
 <head>
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width">
@@ -10,7 +12,7 @@
 <body>
     <header>
         <h1>
-            JABRS Consulting Ltd
+            <img src="pic/Logo.jpg"  alt="Logo" style="width: 15%;">  
         </h1>
       
         <ul>
@@ -19,6 +21,36 @@
           <li><a href=services.html>Services </a></li>
       </ul>
         </ul>
+
+<table>
+  
+  <tr>
+    <td>
+
+    <button onclick="document.getElementById('myImage').src='pic/CAD3.jpg'">Next</button>
+    <img id="myImage" src="pic/CAD1.jpg"style="width:60%">
+    <button onclick="document.getElementById('myImage').src='pic/CAD1.jpg'">Back</button>
+      <p> 
+        CAD Drawing  
+      </p>
+    </td>    
+      
+  </tr>
+
+  <tr>    
+    <td>
+      <button onclick="document.getElementById('myImage1').src='pic/jjj.jpg'">Next</button>
+      <img id="myImage1" src="pic/Saskatoon.jpg"style="width:60%">
+      <button onclick="document.getElementById('myImage1').src='pic/Saskatoon.jpg'">Back</button>
+      <p> 
+          Maps  
+      </p>
+    </td>
+    
+  </tr>
+
+</table>
+
       </header>
     </footer>
     <!--The link with A tag was used for company email,Adineh-->
@@ -30,4 +62,11 @@
      
 </body>
 </html>
-      
+
+
+
+
+
+
+
+
