@@ -81,4 +81,4 @@ Shawn
 Adineh  
 
     CSS file Photos of projects, email link Adineh is working on adding CSS to our website to allow our creative design ideas to be successfully demonstrated throughout our website. Adineh has added maps to our portfolio to show the talent of our employees to our potential clients visiting our webpage. This will work as an insight into the work that can create. 
-    <!------------ Regan End --> 
+    
