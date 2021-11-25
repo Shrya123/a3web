@@ -43,7 +43,7 @@ td{
   font-size: 15px;
   font-family: Verdana;
   font-weight: normal;
-  background-color: #618685;
+  background-color: rgba(65, 182, 196, 0.6);
   color: rgba(1, 6, 36, 0.6);
    
 }
@@ -53,18 +53,8 @@ nav {
   font-family: Verdana;
   font-weight: bold;
   text-align: center;
- 
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-.header{
-  background-color: #618685;
-  padding: 15px;
-  text-align: center;
-}
+
 a:link {
   color:  #36486b;
 }
@@ -80,9 +70,3 @@ a:hover {
 a:active {
   color: #deeaee;
 } 
-
-.footer{
-  background-color:#618685;
-  padding:15px;
-  text-align: center;
-}
