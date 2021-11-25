@@ -83,5 +83,6 @@ a:active {
 
 .footer{
   background-color:#618685;
-  padding:15px
+  padding:15px;
+  text-align: center;
 }
