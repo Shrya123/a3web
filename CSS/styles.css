@@ -54,6 +54,18 @@ nav {
   font-weight: bold;
   text-align: center;
 
+a:link {
+  color:  #36486b;
 }
-style="background:#deeaee"
+
+a:visited {
+  color: #fefbd8;
 }
+
+a:hover {
+  color: #618685;
+}
+
+a:active {
+  color: #deeaee;
+} 
