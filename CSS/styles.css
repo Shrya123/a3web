@@ -58,14 +58,21 @@ nav {
   font-weight: bold;
   text-align: center;
 }
+<<<<<<< HEAD
  
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+=======
+>>>>>>> 14e984829109a300a050f9a77811ee14809a876e
 
-
+/* new user 
+  Owner: Regan
+    Date: November 25
+  Source: w3schools */
+  
 a:link {
   color:  #36486b;
 }
