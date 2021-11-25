@@ -43,30 +43,17 @@ td{
   font-size: 15px;
   font-family: Verdana;
   font-weight: normal;
-  background-color: #618685;
+  background-color: rgba(65, 182, 196, 0.6);
   color: rgba(1, 6, 36, 0.6);
    
 }
-.header{
-  background-color: #618685;
-  padding: 15px;
-  text-align: center;
-}
+
 nav { 
   font-size: 15px;
   font-family: Verdana;
   font-weight: bold;
   text-align: center;
 }
-<<<<<<< HEAD
- 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-=======
->>>>>>> 14e984829109a300a050f9a77811ee14809a876e
 
 /* new user 
   Owner: Regan
@@ -74,7 +61,7 @@ ul{
   Source: w3schools */
   
 a:link {
-  color:  #36486b;
+  color:  #4040a1;
 }
 
 a:visited {
@@ -88,9 +75,3 @@ a:hover {
 a:active {
   color: #deeaee;
 } 
-
-.footer{
-  background-color:#618685;
-  padding:15px;
-  text-align: center;
-}
