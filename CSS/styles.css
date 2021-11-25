@@ -31,7 +31,11 @@ h1 {
      
 /*Css for Portfoilo page- Adineh */
 /*The left and right margins are used to place the table in the center- Adineh */
-
+.header{
+  background-color:#618685;
+  padding: 15px;
+  text-align: center;
+}
 table{ 
   width:90% ;
   margin-left: auto;
@@ -122,3 +126,9 @@ a:hover {
 a:active {
   color: #deeaee;
 } 
+
+.footer {
+background-color:#618685;
+padding: 15px;
+text-align: center;
+}
