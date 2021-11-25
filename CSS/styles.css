@@ -53,6 +53,12 @@ nav {
   font-family: Verdana;
   font-weight: bold;
   text-align: center;
+ 
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 a:link {
   color:  #36486b;
