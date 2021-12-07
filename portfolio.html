@@ -33,7 +33,6 @@ address were used for external CSS . Also "meta" to manage a variety of device s
       <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
       <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
       <a href="/a3web/portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
-      <a href="/a3web/services.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
       <a href="/a3web/cartography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CARTOGRAPHY</a>
       <a href="/a3web/urbanplanning.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> URBAN PLANNING</a>
       <a href="/a3web/topography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TOPOGRAPHY</a>
@@ -50,11 +49,9 @@ address were used for external CSS . Also "meta" to manage a variety of device s
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="/a3web/index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
   <a href="/a3web/about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
   <a href="/a3web/portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
-  <a href="/a3web/services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
   <a href="/a3web/cartography.html" onclick="w3_close()" class="w3-bar-item w3-button">CARTOGRAPHY</a>
   <a href="/a3web/urbanplanning.html" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
   <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
@@ -157,13 +154,20 @@ address were used for external CSS . Also "meta" to manage a variety of device s
   </div>
 
   <div class="w3-row-padding w3-section">
-    <div class="w3-col">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
       <button onclick="document.getElementById('myImage').src='pic/CAD3.jpg'">Next</button>
       <img id="myImage" src="pic/CAD1.jpg"style="width:60%">
       <button onclick="document.getElementById('myImage').src='pic/CAD1.jpg'">Back</button>
     </div>
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
     </div>
   </div>
 
@@ -192,7 +196,8 @@ address were used for external CSS . Also "meta" to manage a variety of device s
       <img id="myImage2" src="pic/surv.jpg"style="width:60%">
       <button onclick="document.getElementById('myImage2').src='pic/surv.jpg'">Back</button>
         <p> 
-          Our surveying and mapping technicians collect data and make maps of the Earth's surface.  
+         Figure 2.1: CAD Plan Survey - This plan was created to show the plan survey of a Concession in the original Township of Ops which is now the City of Kawartha Lakes. 
+         This specific map has the contour outlines of the area which help to show which areas would be suitable for mapping and which would not be.  
         </p>
       </td>    
       
@@ -207,7 +212,7 @@ address were used for external CSS . Also "meta" to manage a variety of device s
       <img id="myImage1" src="pic/Saskatoon.jpg"style="width:60%">
       <button onclick="document.getElementById('myImage1').src='pic/Saskatoon.jpg'">Back</button>
       <p> 
-         Figure 2.Saskatoon Population Density Map - This map was created in 2021 and it outlines Saskatoon’s most populated metropolitan areas. 
+         Figure 3.1:Saskatoon Population Density Map - This map was created in 2021 and it outlines Saskatoon’s most populated metropolitan areas. 
          The white areas indicate that the population is sparse and as the population per area gets larger/denser the color shifts from a light pink to dark pink and then finally to purple. 
          The purple indicates the most populated areas  
       </p>
@@ -220,7 +225,8 @@ address were used for external CSS . Also "meta" to manage a variety of device s
       <img id="mygraph" src="pic/graph1.jpg"style="width:60%">
       <button onclick="document.getElementById('mygraph').src='pic/graph1.jpg'">Back</button>
       <p> 
-        We prepare charts and graphs to show trends, patterns, and relationships between sets of data.  
+        Figure 4.2: Visual and Near Infrared Spectral Signatures for Different Landuse - his graph was created to aid with a topographic map outlining the visible and near infrared spectral signatures for different land use types.
+         It shows that the agricultural fields with crops have the highest reflectance and wavelength whereas as expected the deep water has the lowest reflectance and wavelengths 
       </p>
     </td>
     
