@@ -1,29 +1,49 @@
-<html lang="en">
-<!--Owner:Adineh
+<!--Owner: Jing Wang
  Date: November 13th, 2021
 address were used for external CSS . Also "meta" to manage a variety of device sizes: https://www.w3schools.com -->
 
-<link rel="stylesheet" href="/a3web/css/styles.css">
+
+<html lang="en">
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <head>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="/a3web/css/styles.css">
   <meta name="viewport" content="width=device-width">
   <meta charset="utf-8">
   <title>Portfolio</title>
 </head>
-<body>
-    <header>
-        <h1>
-            <img src="pic/Logo.jpg"  alt="Logo" style="width: 15%;">  
-        </h1>
-      
-        <ul>
-          <li><a href=index.html> Home</a></li>
-          <li><a href=about.html> About</a></li>
-          <li><a href=services.html>Services </a></li>
-      </ul>
-        </ul>
 
+<body>
+
+  <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">JABRS GIS Consultants</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="/a3web/portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="/a3web/cartography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CARTOGRAPHY</a>
+      <a href="/a3web/urbanplanning.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> URBAN PLANNING</a>
+      <a href="/a3web/topography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TOPOGRAPHY</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
 <table>
   
   <tr>
