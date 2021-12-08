@@ -1,26 +1,13 @@
-/*
-GEOM101 Assignment 2  by  Jing Wang, Student Number:10271737
-
- This main goal of this assignment is to make a personal website hosted on Github.
- Github Address fpr main/index page: https://jinwa2021.github.io/index.html
- Current file is the CSS stylesheet for formats and stles
- Description: This is a website displays pictures of fighter jetsgrouped by their generation and block factions.
-
- For this Assignment, 4 ITEMS from instruction 3 were implemented:
-	1. Item 1: Table of Values
-	2. Item 2: 5 or more images at natural size
-	3. Item 5: Navigation Bars.
-	6  Item 6: At least 2 External links.
- 
- All pictures used are in the public domain and allowed for fair use.
-
- The current file provides the formatting and styling for all four webpages of the entire website
+/*  
  
  Main source: https://www.w3schools.com/html/html_css.asp
  Color source: https://www.w3schools.com/html/html_colors.asp
  */
 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif;
+color: black;}
+p{font-family:"Raleway";
+color:black}
 
 body, html {
   height: 100%;
