@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <!--Below is out own css file referencing-->
     <link rel="stylesheet" href="/a3web/css/styles.css">
+    <script src ="/a3web/jss.js"></script>
   </head>
 
   <body>
@@ -223,32 +224,6 @@
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   </footer>
   
-  <script>
-  // Modal Image Gallery  take it out at the end
-  function onClick(element) {
-    document.getElementById("img01").src = element.src;
-    document.getElementById("modal01").style.display = "block";
-    var captionText = document.getElementById("caption");
-    captionText.innerHTML = element.alt;
-  }
-
-
-  // Toggle between showing and hiding the sidebar when clicking the menu icon
-  var mySidebar = document.getElementById("mySidebar");
-
-  function w3_open() {
-    if (mySidebar.style.display === 'block') {
-      mySidebar.style.display = 'none';
-    } else {
-      mySidebar.style.display = 'block';
-    }
-  }
-
-  // Close the sidebar with the close button
-  function w3_close() {
-      mySidebar.style.display = "none";
-  }
-  </script>
 
   </body>
 </html>
