@@ -34,7 +34,16 @@ body, html {
   background-image: img src="/a3web/pic/header-bg.jpg";
   min-height: 100%;
 }
-
 .w3-bar .w3-button {
   padding: 16px;
+}
+/* Regan adding in CSS for cartography page
+*/
+
+div {
+img src="/a3web/pic/cartography1.jpg"
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
