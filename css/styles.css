@@ -55,3 +55,9 @@ body, html {
  ./a3web/pic/Breanne.jpg {
   width:100%;
  }
+ 
+  /* */
+ 
+ .w3-row-padding w3-grayscale {
+ margin-top:64px;
+ }
