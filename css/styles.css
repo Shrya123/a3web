@@ -80,3 +80,8 @@ body, html {
   width:20%;
    }
    
+  .w3-container w3-white { 
+   padding-top:128px; 
+   padding-right:16px;
+   }
+   
