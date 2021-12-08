@@ -9,6 +9,43 @@
 
 <!--Our own css file-->
 <link rel="stylesheet" href="/a3web/css/styles.css">
+  
+    <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">JABRS GIS Consultants</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="/a3web/portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="/a3web/services.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
+      <a href="/a3web/cartography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CARTOGRAPHY</a>
+      <a href="/a3web/urbanplanning.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> URBAN PLANNING</a>
+      <a href="/a3web/topography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TOPOGRAPHY</a>
+      <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="/a3web/index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="/a3web/about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="/a3web/portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+  <a href="/a3web/services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="/a3web/cartography.html" onclick="w3_close()" class="w3-bar-item w3-button">CARTOGRAPHY</a>
+  <a href="/a3web/urbanplanning.html" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
+  <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
+  <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
   <p1>
         Our urban planners and designers are innovative agents of change, devoted to improving the human condition. Though considerable collaboration and partnerships, 
     we advocate for client and community needs to progress our design quality, sustainability, and flexibility. Our meticulous approach is governed by systems-thinking 
