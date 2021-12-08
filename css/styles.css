@@ -75,6 +75,9 @@ body, html {
   width:70%;
 }
 
+#mySidebar {
+  display: none
+}
 
 .w3-container .w3-white { 
   padding-top:128px; 
