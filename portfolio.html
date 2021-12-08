@@ -6,140 +6,161 @@ address were used for external CSS . Also "meta" to manage a variety of device s
 
 <!DOCTYPE html>
 <html lang = en>
-<head>
-  <title>JABRS GIS Consultants</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-  <!--Below is out own css file referencing-->
-  <link rel="stylesheet" href="/a3web/css/styles.css">
-  <meta name="viewport" content="width=device-width">
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-</head>
+  <head>
+    <title>JABRS GIS Consultants</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!--Below is out own css file referencing-->
+    <link rel="stylesheet" href="/a3web/css/styles.css">
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+  </head>
 
-<body>
+  <body>
 
-  <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="/a3web/index.html" class="w3-bar-item w3-button w3-wide">JABRS GIS Consultants HOME</a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="/a3web/portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
-      <a href="/a3web/services.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
-      <a href="/a3web/cartography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CARTOGRAPHY</a>
-      <a href="/a3web/urbanplanning.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> URBAN PLANNING</a>
-      <a href="/a3web/topography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TOPOGRAPHY</a>
-      <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-    </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="/a3web/index.html" class="w3-bar-item w3-button w3-wide">JABRS GIS Consultants HOME</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+          <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
+          <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+          <a href="/a3web/portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+          <a href="/a3web/services.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
+          <a href="/a3web/cartography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CARTOGRAPHY</a>
+          <a href="/a3web/urbanplanning.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> URBAN PLANNING</a>
+          <a href="/a3web/topography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TOPOGRAPHY</a>
+          <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="/a3web/index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
-  <a href="/a3web/about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="/a3web/portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
-  <a href="/a3web/services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
-  <a href="/a3web/cartography.html" onclick="w3_close()" class="w3-bar-item w3-button">CARTOGRAPHY</a>
-  <a href="/a3web/urbanplanning.html" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
-  <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
-  <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-</nav>
-
-
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-container w3-light-grey" style="padding:128px 16px">
-    <div class="w3-row-padding">
-      <div class="w3-col m6">
-        <h3>Project Gallery</h3>
-        <p> </p>
-           <!--Owner: Breanne, Date:December 8th-->
-      </div>
-      <div class="w3-col m6">
-        <img src="/a3web/pic/Map.jpg" alt="Map.jpg" >
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
-  </div>
-</header>
 
-<!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="/a3web/index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+      <a href="/a3web/about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+      <a href="/a3web/portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+      <a href="/a3web/services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+      <a href="/a3web/cartography.html" onclick="w3_close()" class="w3-bar-item w3-button">CARTOGRAPHY</a>
+      <a href="/a3web/urbanplanning.html" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
+      <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
+      <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
 
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l8 m12">
-      <p> CAD Drawing </p>
-      <button onclick="document.getElementById('myImage').src='pic/CAD3.jpg'">Next</button>
-      <img class="w3-image" id="myImage" src="pic/CAD1.jpg">
-      <button onclick="document.getElementById('myImage').src='pic/CAD1.jpg'">Back</button>
-      <p> 
-        Figure 1.1 and 1.2: CAD Plans - Our team also produces high quality and detailed virtual representations of building features, landscapes and more by using the CAD modeling Software. 
-      </p>    
+
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-container w3-light-grey" style="padding:128px 16px">
+        <div class="w3-row-padding">
+          <div class="w3-col m6">
+            <h3>Project Gallery</h3>
+            <p> </p>
+              <!--Owner: Breanne, Date:December 8th-->
+          </div>
+          <div class="w3-col m6">
+            <img src="/a3web/pic/Map.jpg" alt="Map.jpg" >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Work Section -->
+    <div class="w3-container" style="padding:128px 16px" id="work">
+      <h3 class="w3-center">OUR WORK</h3>
+      <p class="w3-center w3-large">What we've done for people</p>
+      <div class="w3-row-padding" style="margin-top:64px">
+        <div class="w3-col l8 m12">
+          <p> CAD Drawing </p>
+          <button onclick="document.getElementById('myImage').src='pic/CAD3.jpg'">Next</button>
+          <img class="w3-image" id="myImage" src="pic/CAD1.jpg">
+          <button onclick="document.getElementById('myImage').src='pic/CAD1.jpg'">Back</button>
+          <p> 
+            Figure 1.1 and 1.2: CAD Plans - Our team also produces high quality and detailed virtual representations of building features, landscapes and more by using the CAD modeling Software. 
+          </p>    
+        </div>
+      </div>
+      <div class="w3-row-padding w3-section">
+        <div class="w3-col l8 m12">
+          <p> CAD Drawing </p>
+          <button onclick="document.getElementById('myImage2').src='pic/surv2.jpg'">Next</button>
+          <img class="w3-image" id="myImage2" src="pic/surv.jpg"> <!--<style="width:60%">-->
+          <button onclick="document.getElementById('myImage2').src='pic/surv.jpg'">Back</button>
+            <p> 
+            Figure 2.1 and 2.2: CAD Plan Survey - This plan was created to show the plan survey of a Concession in the original Township of Ops which is now the City of Kawartha Lakes. 
+            Figure 2.1 has the contour outlines of the area which help to show which areas would be suitable for mapping and which would not be.  
+            </p>    </div>
+      </div>
+      <div class="w3-row-padding w3-section">
+        <div class="w3-col l8 m12">
+          <p> Maps </p>
+          <img class="w3-image" id="myImage1" src="pic/Saskatoon.jpg"> <!--style="width:70%">-->
+          <p> 
+            Figure 3:Saskatoon Population Density Map - This map was created in 2021 and it outlines Saskatoon’s most populated metropolitan areas. 
+            The white areas indicate that the population is sparse and as the population per area gets larger/denser the color shifts from a light pink to dark pink and then finally to purple. 
+            The purple indicates the most populated areas  
+          </p>    </div>
+      </div>
+      <div class="w3-row-padding w3-section">
+        <div class="w3-col l8 m12">
+          <p> Graphs and charts </p>
+          <img class="w3-image" id="mygraph" src="pic/Graph.jpg">
+          <p> 
+            Figure 4: Visual and Near Infrared Spectral Signatures for Different Landuse - his graph was created to aid with a topographic map outlining the visible and near infrared spectral signatures for different land use types.
+            It shows that the agricultural fields with crops have the highest reflectance and wavelength whereas as expected the deep water has the lowest reflectance and wavelengths 
+          </p>    
+        </div>
+      </div>
     </div>
-  </div>
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l8 m12">
-      <p> CAD Drawing </p>
-      <button onclick="document.getElementById('myImage2').src='pic/surv2.jpg'">Next</button>
-      <img class="w3-image" id="myImage2" src="pic/surv.jpg"> <!--<style="width:60%">-->
-      <button onclick="document.getElementById('myImage2').src='pic/surv.jpg'">Back</button>
-        <p> 
-         Figure 2.1 and 2.2: CAD Plan Survey - This plan was created to show the plan survey of a Concession in the original Township of Ops which is now the City of Kawartha Lakes. 
-         Figure 2.1 has the contour outlines of the area which help to show which areas would be suitable for mapping and which would not be.  
-        </p>    </div>
-  </div>
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l8 m12">
-      <p> Maps </p>
-      <img class="w3-image" id="myImage1" src="pic/Saskatoon.jpg"> <!--style="width:70%">-->
-      <p> 
-         Figure 3:Saskatoon Population Density Map - This map was created in 2021 and it outlines Saskatoon’s most populated metropolitan areas. 
-         The white areas indicate that the population is sparse and as the population per area gets larger/denser the color shifts from a light pink to dark pink and then finally to purple. 
-         The purple indicates the most populated areas  
-      </p>    </div>
-  </div>
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l8 m12">
-      <p> Graphs and charts </p>
-      <img class="w3-image" id="mygraph" src="pic/Graph.jpg">
-      <p> 
-        Figure 4: Visual and Near Infrared Spectral Signatures for Different Landuse - his graph was created to aid with a topographic map outlining the visible and near infrared spectral signatures for different land use types.
-         It shows that the agricultural fields with crops have the highest reflectance and wavelength whereas as expected the deep water has the lowest reflectance and wavelengths 
-      </p>    
-    </div>
-  </div>
-
-</div>
 
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a href="/a3web/index.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+      <a href="/a3web/index.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+      <div class="w3-xlarge w3-section">
 
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer> 
-     
-</body>
+      </div>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer> 
+
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+      
+      
+      // Toggle between showing and hiding the sidebar when clicking the menu icon
+      var mySidebar = document.getElementById("mySidebar");
+      
+      function w3_open() {
+        if (mySidebar.style.display === 'block') {
+          mySidebar.style.display = 'none';
+        } else {
+          mySidebar.style.display = 'block';
+        }
+      }
+      
+      // Close the sidebar with the close button
+      function w3_close() {
+          mySidebar.style.display = "none";
+      }
+      </script>
+  </body>
 </html>
 
 
