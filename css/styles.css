@@ -37,4 +37,8 @@ body, html {
  padding-right:16px;
  }
  
+ /* */
  
+ .w3-row-padding w3-center {
+ margin-top:64px;
+ }
