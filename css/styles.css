@@ -24,8 +24,28 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
  
- /* Adding in  CSS */
+ /* Regan CSS for header padding */
  
   .w3-display-left w3-text-white {
  padding-top:48px;
+ }
+ 
+ /* Adding */
+ 
+ .w3-container {
+ padding-top:128px;
+ padding-right:16px;
+ }
+ 
+ /* */
+ 
+ .w3-row-padding w3-center {
+ margin-top:64px;
+ }
+ 
+ /* */ 
+ 
+ .w3-container w3-light-grey {
+ padding-top:128px; 
+ padding-right:16px;
  }
