@@ -49,3 +49,11 @@ body, html {
  padding-top:128px; 
  padding-right:16px;
  }
+ 
+ /* */ 
+ 
+  /* */
+ 
+ .w3-row-padding w3-grayscale {
+ margin-top:64px;
+ }
