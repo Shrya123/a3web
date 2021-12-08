@@ -46,6 +46,6 @@ body, html {
  /* */ 
  
  .w3-container w3-light-grey {
- padding-top:128px 
+ padding-top:128px; 
  padding-right:16px;
  }
