@@ -52,6 +52,6 @@ body, html {
  
  /* */
  
- ./a3web/pic/Breanne.jpg 
- {width:100%;
+ ./a3web/pic/Breanne.jpg {
+  width:100%;
  }
