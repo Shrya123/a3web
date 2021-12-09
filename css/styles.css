@@ -84,7 +84,9 @@ body, html {
 }
 
 #mySidebar {
-  display: none
+  display: none;
 }
 
-
+#logo_sec{
+  padding-top: 128px;
+}
