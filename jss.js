@@ -1,3 +1,14 @@
+//////////////////////  
+
+Owner : Regan MacLean 
+
+// Date  : Dec 7 2021
+
+// From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+
+//////////////////// 
+
+ 
 // Toggle between showing and hiding the sidebar when clicking the menu icon
   
   var mySidebar = document.getElementById("mySidebar");
@@ -11,6 +22,9 @@
   }
 
   // Close the sidebar with the close button
-  function w3_close() {
+  
+function w3_close() {
       mySidebar.style.display = "none";
   }
+
+// End Owner: Regan MacLean
