@@ -1,11 +1,10 @@
-<!--Owner: Jing Wang
- Date: November 13th, 2021
-address were used for external CSS . Also "meta" to manage a variety of device sizes: https://www.w3schools.com -->
-
-
-
 <!DOCTYPE html>
 <html lang = en>
+  <!-- --------------------------------
+    - Owner : Breanne McAllister
+    - Data : Dec. 4th (v3)
+    - From : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+  -->
   <head>
     <title>JABRS GIS Consultants - Portfolio</title>
     <meta charset="UTF-8">
@@ -15,11 +14,16 @@ address were used for external CSS . Also "meta" to manage a variety of device s
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Below is out own css file referencing-->
     <link rel="stylesheet" href="/a3web/css/styles.css">
-    
   </head>
+  <!--*** End Owner: Breanne McAllister *** -->
+
 
   <body>
-  
+    <!-- --------------------------------
+      - Owner : Jing Wang
+      - Data : Dec. 7th (v6)
+      - From : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+    -->
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
       <div class="w3-bar w3-white w3-card" id="myNavbar">
@@ -40,15 +44,15 @@ address were used for external CSS . Also "meta" to manage a variety of device s
         </a>
       </div>
     </div>
-   
-   <!-- ----------------- 
-- Owner : Regan MacLean 
-- Date  : Dec 7 2021
-- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm 
-Sidebar on small screens when clicking the menu icon - this side navbar utilizies javascript
-------------------- --> 
-   
-    
+    <!--*** End Owner: Jing Wang *** -->
+
+
+    <!-- ----------------- 
+      - Owner : Regan MacLean 
+      - Date  : Dec 7 2021
+      - From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm 
+      Sidebar on small screens when clicking the menu icon - this side navbar utilizies javascript
+      ------------------- -->  
     <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id = "mySidebar">
       <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
       <a href="/a3web/index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
@@ -60,9 +64,13 @@ Sidebar on small screens when clicking the menu icon - this side navbar utilizie
       <a href="/a3web/urbanplanning.html" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
       <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
     </nav>
-
-   <!--*** End Owner: Regan MacLean *** -->
-   
+    <!--*** End Owner: Regan MacLean *** -->
+    
+    <!-- --------------------------------
+      - Owner : Jing Wang
+      - Data : Dec. 7th (v6)
+      - From : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+    -->
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
       <div class="w3-container w3-light-grey">
         <div class="w3-row-padding">
@@ -77,7 +85,13 @@ Sidebar on small screens when clicking the menu icon - this side navbar utilizie
         </div>
       </div>
     </header>
+    <!--*** End Owner: Jing Wang *** -->
 
+    <!-- -----------------
+      - Owner : Breanne McAllister
+      - Date  : Dec 6
+      - From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+      ------------------- -->
     <!-- Work Section -->
     <!--This part of the code makes our works show up in a line horizontally down to ensure that the images show up clearly even on mobile-->
     <div class="w3-container w3-center" id="work">
@@ -89,11 +103,6 @@ Sidebar on small screens when clicking the menu icon - this side navbar utilizie
           <button onclick="document.getElementById('myImage').src='pic/CAD3.jpg'">Next</button>
           <img class="w3-image" id="myImage" src="pic/CAD1.jpg">
           <button onclick="document.getElementById('myImage').src='pic/CAD1.jpg'">Back</button>
-                                  <!-- -----------------
-- Owner : Breanne McAllister
-- Date  : Dec 6
-- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
-------------------- -->
           <p> 
             Figure 1.1 and 1.2: CAD Plans - Our team produces high quality and detailed virtual representations of building features, landscapes and more by using the CAD modeling Software. 
           </p>    
@@ -103,71 +112,55 @@ Sidebar on small screens when clicking the menu icon - this side navbar utilizie
         <div class="w3-col l8 m12">
           <p> CAD Drawing </p>
           <button onclick="document.getElementById('myImage2').src='pic/surv2.jpg'">Next</button>
-          <img class="w3-image" id="myImage2" src="pic/surv.jpg"> <!--<style="width:60%">-->
+          <img class="w3-image" id="myImage2" src="pic/surv.jpg"> 
           <button onclick="document.getElementById('myImage2').src='pic/surv.jpg'">Back</button>
-        <!--End Owner:Breanne McAllister***--> 
-                                  <!-- -----------------
-- Owner : Breanne McAllister
-- Date  : Dec 6
-- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
-------------------- -->
-            <p> 
+          <p> 
             Figure 2.1 and 2.2: CAD Plan Survey - This plan was created to show the plan survey of a Concession in the original Township of Ops which is now the City of Kawartha Lakes. 
             Figure 2.1 has the contour outlines of the area which help to show which areas would be suitable for mapping and which would not be.  
-            </p>    </div>
+          </p>    
+        </div>
       </div>
       <div class="w3-center">
         <div class="w3-col l8 m12">
           <p> Maps </p>
-          <img class="w3-image" id="myImage1" src="pic/Saskatoon.jpg"> <!--style="width:70%">-->
-         <!--End Owner:Breanne McAllister***--> 
-          <!-- -----------------
-- Owner : Breanne McAllister
-- Date  : Dec 6
-- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
-------------------- -->
+          <img class="w3-image" id="myImage1" src="pic/Saskatoon.jpg"> 
           <p> 
             Figure 3:Saskatoon Population Density Map - This map was created in 2021 and it outlines Saskatoon’s most populated metropolitan areas. 
             The white areas indicate that the population is sparse and as the population per area gets larger/denser the color shifts from a light pink to dark pink and then finally to purple. 
             The purple indicates the most populated areas  
-          </p>    </div>
+          </p>    
+        </div>
       </div>
-      <!--End Owner:Breanne McAllister***--> 
       <div class="w3-center">
         <div class="w3-col l8 m12">
           <p> Graphs and charts </p>
           <img class="w3-image" id="mygraph" src="pic/Graph.jpg">
-                                  <!-- -----------------
-- Owner : Breanne McAllister
-- Date  : Dec 6
-- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
-------------------- -->
           <p> 
             Figure 4: Visual and Near Infrared Spectral Signatures for Different Landuse - his graph was created to aid with a topographic map outlining the visible and near infrared spectral signatures for different land use types.
             It shows that the agricultural fields with crops have the highest reflectance and wavelength whereas as expected the deep water has the lowest reflectance and wavelengths 
-          </p>  
-        <!--End Owner:Breanne McAllister***-->  
+          </p>
         </div>
       </div>
     </div>
-
+    <!--End Owner:Breanne McAllister***-->
 
     <!-- Footer ----------------- 
 
-- Owner : Shawn Ryan	 
+      - Owner : Shawn Ryan	 
 
-- Date  : Dec 8 
+      - Date  : Dec 8 
 
-- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+      - From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
 
-------------------- --> 
+    ------------------- --> 
     <footer class="w3-center w3-black w3-padding-64">
       <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     </footer>
     <script src ="/a3web/jss.js"></script>
+    <!--*** End Owner: Shawn Ryan *** --> 
   </body>
 </html>
-<!--*** End Owner: Shawn Ryan *** --> 
+
 
 
 
