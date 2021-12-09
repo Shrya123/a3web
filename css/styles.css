@@ -95,7 +95,7 @@ body, html {
   padding-top: 128px;
 }
 
-.topography, .cartography, .portfolio, .urban_planing {
+#topography, #cartography, #portfolio, #urban_planing {
   padding-top: 128px;
 }
 .team_image{
