@@ -19,6 +19,8 @@
       <div class="w3-bar w3-white w3-card" id="myNavbar">
         <a href="/a3web/index.html" class="w3-bar-item w3-button w3-wide">JABRS GIS Consultants</a>
         <!-- Right-sided navbar links -->
+
+        
         <div class="w3-right w3-hide-small">
           <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
           <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
@@ -31,11 +33,18 @@
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
           <i class="fa fa-bars"></i>
+        
         </a>
       </div>
     </div>
-
-    <!-- Sidebar on small screens when clicking the menu icon -->
+    
+    <!-- ----------------- 
+- Owner : Regan MacLean 
+- Date  : Dec 7 2021
+- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm 
+Sidebar on small screens when clicking the menu icon - this side navbar utilizies javascript
+------------------- --> 
+    
     <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id = "mySidebar">
       <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
       <a href="/a3web/index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
@@ -46,22 +55,32 @@
       <a href="/a3web/cartography.html" onclick="w3_close()" class="w3-bar-item w3-button">CARTOGRAPHY</a>
       <a href="/a3web/urbanplanning.html#home" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
       <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
+       
     </nav>
 
-
+ <!--*** End Owner: Regan MacLean *** -->
+    
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
       <div class="w3-container w3-white">
         <div class="w3-row-padding">
           <div class="w3-col m6">
+             <!-- -----------------
+- Owner : Breanne McAllister
+- Date  : Dec 6
+- From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+------------------- -->
+
+               <!-- This is the blurb of text that explains our urban planning backgrounds as a company -->
             <h3>Urban Planning</h3>
             <p1>
               Our urban planners and designers are innovative agents of change, devoted to improving the human condition. Though considerable collaboration and partnerships, 
           we advocate for client and community needs to progress our design quality, sustainability, and flexibility. Our meticulous approach is governed by systems-thinking 
           and backed by leading-edge tools and dependable strategies to legitimize decision-making that is objective-driven, stats-informed, and comprehensive.
         </p1>  
-              <!--End Owner: Breanne, Date:December 8th-->
+             
           </div>
           <div class="w3-col m6">
+            <!-- This picture shows a really nice overview city infrastructure-->
             <img src="/a3web/pic/urbanplanning2.jpg" alt="urbanplanning2">
           </div>
         </div>
@@ -75,7 +94,8 @@
           <h3>We know design.</h3>
           <p>From cartographic maps to topological maps, we have your needs covered. 
             Click the link below to check out some of our works.</p>
-            <!--End Owner: Breanne, Date:December 8th-->
+            <!--End Owner: Breanne McAllister***-->
+            
           <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
         </div>
         <div class="w3-col m6">
@@ -85,10 +105,12 @@
     </div>
   
     <!-- Footer -->
+    
     <footer class="w3-center w3-black w3-padding-64">
       <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     </footer>
     <script src ="/a3web/jss.js"></script>
+    
     
   </body>
 </html>
