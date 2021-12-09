@@ -1,6 +1,20 @@
+<!-- --------------------------------
+  GEOM101 Web Design Assignment 3 for Group 12:
+  Groupe members:
+  This is the index page of our website ofr JABRS GIS Consultants.
+  This Page is largely put together by Jing Wang, with contributions from other member of our group
+
+This 
+-->
+
+
 <!DOCTYPE html>
 <html lang = en>
-
+<!-- --------------------------------
+  - Owner : Breanne McAllister
+  - Data : Dec. 4th (v3)
+  - From : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+-->
   <head>
     <title>JABRS GIS Consultants - Index(HOME)</title>
     <meta charset="UTF-8">
@@ -8,210 +22,226 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <!--Below is out own css file referencing-->
-    <link rel="stylesheet" href="/a3web/css/styles.css">
-    
+    <link rel="stylesheet" href="/a3web/css/styles.css">  
   </head>
 
+<!-- End Owner : Breanne McAllister -->
+
   <body>
-
-  <!-- Navbar (sit on top) -->
-  <div class="w3-top">
-    <div class="w3-bar w3-white w3-card" id="myNavbar">
-      <a href="/a3web/index.html#home" class="w3-bar-item w3-button w3-wide">JABRS GIS Consultants</a>
-      <!-- Right-sided navbar links -->
-      <div class="w3-right w3-hide-small">
-        <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
-        <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-        <a href="/a3web/portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
-        <a href="/a3web/services.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
-        <a href="/a3web/cartography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CARTOGRAPHY</a>
-        <a href="/a3web/urbanplanning.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> URBAN PLANNING</a>
-        <a href="/a3web/topography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TOPOGRAPHY</a>
+    
+    <!-- --------------------------------
+      - Owner : Jing Wang
+      - Data : Dec. 7th (v6)
+      - From : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+    -->
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="/a3web/index.html#home" class="w3-bar-item w3-button w3-wide">JABRS GIS Consultants</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+          <a href="/a3web/about.html" class="w3-bar-item w3-button">ABOUT</a>
+          <a href="/a3web/team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+          <a href="/a3web/portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+          <a href="/a3web/services.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
+          <a href="/a3web/cartography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CARTOGRAPHY</a>
+          <a href="/a3web/urbanplanning.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> URBAN PLANNING</a>
+          <a href="/a3web/topography.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TOPOGRAPHY</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
-      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-        <i class="fa fa-bars"></i>
-      </a>
     </div>
-  </div>
+    <!-- End Owner : Jing Wang -->
 
-  <!-- Sidebar on small screens when clicking the menu icon -->
-  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id = "mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <a href="/a3web/index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
-    <a href="/a3web/about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-    <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-    <a href="/a3web/portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
-    <a href="/a3web/services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
-    <a href="/a3web/cartography.html" onclick="w3_close()" class="w3-bar-item w3-button">CARTOGRAPHY</a>
-    <a href="/a3web/urbanplanning.html" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
-    <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
-  </nav>
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id = "mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="/a3web/index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+      <a href="/a3web/about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="/a3web/team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+      <a href="/a3web/portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+      <a href="/a3web/services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+      <a href="/a3web/cartography.html" onclick="w3_close()" class="w3-bar-item w3-button">CARTOGRAPHY</a>
+      <a href="/a3web/urbanplanning.html" onclick="w3_close()" class="w3-bar-item w3-button">URBAN PLANNING</a>
+      <a href="/a3web/topography.html" onclick="w3_close()" class="w3-bar-item w3-button">TOPOGRAPHY</a>
+    </nav>
 
   <!-- Header with full-height image -->
-  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-    <img src="/a3web/pic/headerbg.jpg" alt="background" width="100%" height="1000">
-    <div class="w3-display-left w3-text-white">
-      <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
-      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start your GIS endeavours here.</span><br>
-      <span class="w3-large">“The application of GIS is limited only by the imagination of those who use it”. ~ Jack Dangermond, Esri</span>
-      <p><a href="/a3web/about.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more here.</a></p>
-    </div> 
-    </div>
-  </header>
-  <!--Shawn was here-->
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+      <img src="/a3web/pic/headerbg.jpg" alt="background" width="100%" height="1000">
+      <div class="w3-display-left w3-text-white">
+        <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+        <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start your GIS endeavours here.</span><br>
+        <span class="w3-large">“The application of GIS is limited only by the imagination of those who use it”. ~ Jack Dangermond, Esri</span>
+        <p><a href="/a3web/about.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more here.</a></p>
+      </div> 
+      </div>
+    </header>
+    <!--Shawn was here-->
 
-  <!-- About Section -->
-  <div class="w3-container">
-    <h3 class="w3-center">ABOUT THE COMPANY</h3>
-    <p class="w3-center w3-large">Key features of our company</p>
-    <div class="w3-row-padding w3-center">
-      <div class="w3-quarter">
-        <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Reliable</p>
-        <p>We are ready and able to provide professional advice, expert consultation as a company you can trust.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Clarity</p>
-        <p>We pride ourselves in clear consicse map making, surveying and client consultation.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-database w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Design</p>
-        <p>We have impeccable taste in design that will aid your project in becoming the best quality it can be.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Support</p>
-        <p>Our client care is exceptional. We are here to help you with any GIS needs for your company/personal projects.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Promo Section - "We know design" -->
-  <div class="w3-container w3-light-grey">
-    <div class="w3-row-padding">
-      <div class="w3-col m6">
-        <h3>We know design.</h3>
-        <p>Please browse our previous works to see how we can provide for you.</p>
-        <p><a href="/a3web/portfolio.html" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
-      </div>
-      <div class="w3-col m6">
-        <img class="w3-image w3-round-large" src="/a3web/pic/Two laptops.jpg" alt="TwoLaptops" width="700" height="394">
+    <!-- About Section -->
+    <div class="w3-container">
+      <h3 class="w3-center">ABOUT THE COMPANY</h3>
+      <p class="w3-center w3-large">Key features of our company</p>
+      <div class="w3-row-padding w3-center">
+        <div class="w3-quarter">
+          <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Reliable</p>
+          <p>We are ready and able to provide professional advice, expert consultation as a company you can trust.</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Clarity</p>
+          <p>We pride ourselves in clear consicse map making, surveying and client consultation.</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-database w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Design</p>
+          <p>We have impeccable taste in design that will aid your project in becoming the best quality it can be.</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Support</p>
+          <p>Our client care is exceptional. We are here to help you with any GIS needs for your company/personal projects.</p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Team Section -->
-  <div class="w3-container">
-    <h3 class="w3-center">THE TEAM</h3>
-    <div class="w3-row-padding w3-grayscale">
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <img src="/a3web/pic/Breanne.jpg" alt="Breanne" style="width:100%">
-          <div class="w3-container">
-            <h3>Breanne Mcallister</h3>
-            <p class="w3-opacity">Lead Archaeologist</p>
+    <!-- Promo Section - "We know design" -->
+    <div class="w3-container w3-light-grey">
+      <div class="w3-row-padding">
+        <div class="w3-col m6">
+          <h3>We know design.</h3>
+          <p>Please browse our previous works to see how we can provide for you.</p>
+          <p><a href="/a3web/portfolio.html" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+        </div>
+        <div class="w3-col m6">
+          <img class="w3-image w3-round-large" src="/a3web/pic/Two laptops.jpg" alt="TwoLaptops" width="700" height="394">
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="w3-container">
+      <h3 class="w3-center">THE TEAM</h3>
+      <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-card">
+            <img src="/a3web/pic/Breanne.jpg" alt="Breanne" style="width:100%">
+            <div class="w3-container">
+              <h3>Breanne Mcallister</h3>
+              <p class="w3-opacity">Lead Archaeologist</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-card">
+            <img src="/a3web/pic/JingWang.jpg" alt="Jing" style="width:100%">
+            <div class="w3-container">
+              <h3>Jing Wang</h3>
+              <p class="w3-opacity">Art Director</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-card">
+            <img src="/a3web/pic/Reganbnw.JPG" alt="Regan" style="width:100%">
+            <div class="w3-container">
+              <h3>Regan MacLean</h3>
+              <p class="w3-opacity">Lead Cartographer</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-card">
+            <img src="/a3web/pic/shawn ryan.jpg" alt="Shawn" style="width:100%">
+            <div class="w3-container">
+              <h3>Shawn Ryan</h3>
+              <p class="w3-opacity">Designer</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <img src="/a3web/pic/JingWang.jpg" alt="Jing" style="width:100%">
-          <div class="w3-container">
-            <h3>Jing Wang</h3>
-            <p class="w3-opacity">Art Director</p>
+    </div>
+
+    <!-- Promo Section "Statistics" -->
+    <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+      <div class="w3-quarter">
+        <span class="w3-xxlarge">3+</span>
+        <br>Partners
+      </div>
+      <div class="w3-quarter">
+        <span class="w3-xxlarge">24+</span>
+        <br>Projects Done
+      </div>
+      <div class="w3-quarter">
+        <span class="w3-xxlarge">14+</span>
+        <br>Happy Clients
+      </div>
+      <div class="w3-quarter">
+        <span class="w3-xxlarge">50+</span>
+        <br>Meetings
+      </div>
+    </div>
+
+
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <!-- --------------------------------
+      - Owner : Jing Wang
+      - Data : Dec. 7th (v6)
+      - From : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+    -->
+    <!-- Skills Section -->
+    <div class="w3-container w3-light-grey w3-padding-64">
+      <div class="w3-row-padding">
+        <div class="w3-col m6">
+          <h3>Our Skills</h3>
+          <p>JABRS main focus is structured around Urban planning and cartographic mapping using Avenza Map Publisher, Adobe Illustrator 
+            and ArcGIS Pro to create advantageous and precise maps for our clients.</p>
+          <p>We pride ourselves on our ability to adapt to situations in order to provide
+            the best service possible for our clients.</p>
+        </div>
+        <div class="w3-col m6">
+          <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Cartography</p>
+          <div class="w3-grey">
+            <div id="Carto_bar" class="w3-container w3-dark-grey w3-center">90%</div>
+          </div>
+          <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Urban Planning</p>
+          <div class="w3-grey">
+            <div id="Urb_Pl_bar" class="w3-container w3-dark-grey w3-center">88%</div>
+          </div>
+          <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Topology</p>
+          <div class="w3-grey">
+            <div id="topo_bar" class="w3-container w3-dark-grey w3-center">70%</div> 
           </div>
         </div>
       </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <img src="/a3web/pic/Reganbnw.JPG" alt="Regan" style="width:100%">
-          <div class="w3-container">
-            <h3>Regan MacLean</h3>
-            <p class="w3-opacity">Lead Cartographer</p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <img src="/a3web/pic/shawn ryan.jpg" alt="Shawn" style="width:100%">
-          <div class="w3-container">
-            <h3>Shawn Ryan</h3>
-            <p class="w3-opacity">Designer</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Promo Section "Statistics" -->
-  <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-    <div class="w3-quarter">
-      <span class="w3-xxlarge">3+</span>
-      <br>Partners
-    </div>
-    <div class="w3-quarter">
-      <span class="w3-xxlarge">24+</span>
-      <br>Projects Done
-    </div>
-    <div class="w3-quarter">
-      <span class="w3-xxlarge">14+</span>
-      <br>Happy Clients
-    </div>
-    <div class="w3-quarter">
-      <span class="w3-xxlarge">50+</span>
-      <br>Meetings
-    </div>
-  </div>
-
-
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption" class="w3-opacity w3-large"></p>
-    </div>
-  </div>
-
-  <!-- Skills Section -->
-  <div class="w3-container w3-light-grey w3-padding-64">
-    <div class="w3-row-padding">
-      <div class="w3-col m6">
-        <h3>Our Skills</h3>
-        <!--Owner: Breanne, Date:December 7th-->
-        <p>JABRS main focus is structured around Urban planning and cartographic mapping using Avenza Map Publisher, Adobe Illustrator 
-          and ArcGIS Pro to create advantageous and precise maps for our clients.</p>
-        <p>We pride ourselves on our ability to adapt to situations in order to provide
-          the best service possible for our clients.</p>
-      </div>
-      <div class="w3-col m6">
-        <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Cartography</p>
-        <div class="w3-grey">
-          <div id="Carto_bar" class="w3-container w3-dark-grey w3-center">90%</div>
-        </div>
-        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Urban Planning</p>
-        <div class="w3-grey">
-          <div id="Urb_Pl_bar" class="w3-container w3-dark-grey w3-center">88%</div>
-        </div>
-        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Topology</p>
-        <div class="w3-grey">
-          <div id="topo_bar" class="w3-container w3-dark-grey w3-center">70%</div> 
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- End Owner: Breanne, Date:December 7th-->
-
-  <!-- Footer -->
+    <!-- End Owner: Jing Wang-->
+  
+    <!-- --------------------------------
+      - Owner : Shawn Ryan
+      - Data : Dec. 7th (v6)
+      - From : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
+    -->
+    <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64">
       <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     </footer>
     <script src ="/a3web/jss.js"></script>
-  
+    <!-- End Owner: Shawn Ryan-->
 
   </body>
 </html>
