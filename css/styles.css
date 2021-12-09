@@ -4,10 +4,15 @@
  Color source: https://www.w3schools.com/html/html_colors.asp
  */
 
-h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif;
-color: black;}
-p{font-family:"Raleway";
-color:black}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+p{
+  font-family:"Raleway";
+  color:black
+}
 
 body, html {
   height: 100%;
@@ -18,7 +23,6 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: img src="/a3web/pic/header-bg.jpg";
   min-height: 100%;
 }
 .w3-bar .w3-button {
@@ -62,12 +66,12 @@ body, html {
  }
 
  .w3-grey {
-  padding-top:4px;
+  padding-top:0px;
   padding-right:16px;
  }
 
  .w3-container .w3-dark-grey .w3-center {
-  padding-top:4px;
+  padding-top:0px;
   padding-right:16px;
  }
 
